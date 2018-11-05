@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itcast.dao.ISaleinfoDao">
+    <!--多表查询需要提升封装等级-->
+    <!--<resultMap id="Saleinfo" type="com.itcast.domain.Saleinfo" >
+        <result column="username" property="customer.username"></result>
+        <result column="bookname" property="book.bookname"></result>
+        <result column="kind_name" property="book.kind.kind_name"></result>
+        <result column="price" property="book.price"></result>
+    </resultMap>-->
+    <resultMap id="Saleinfo" type="Saleinfo" autoMapping="true">
+        <collection property="book" ofType="book" autoMapping="true">
+            <collection property="kind" ofType="kind" autoMapping="true"></collection>
+        </collection>
+        <collection property="customer" ofType="customer" autoMapping="true"></collection>
+
+    </resultMap>
+
+    <select id="query" resultMap="Saleinfo">
+        SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`;
+    </select>
+
+
+
+
+</mapper>

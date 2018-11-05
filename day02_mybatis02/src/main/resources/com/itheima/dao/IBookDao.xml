@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.itheima.dao.IBookDao">
+    <cache></cache>
+    <!--多表查询需要提升封装等级-->
+    <!--<resultMap id="ISaleinfoMap" type="ISaleinfo" autoMapping="true">
+        <collection property="book" ofType="book" autoMapping="true"></collection>
+        <collection property="customer" ofType="customer" autoMapping="true"></collection>
+    </resultMap>-->
+    <resultMap id="Book" type="com.itheima.domain.Book" >
+        <result column="kind_name" property="kind.kind_name"></result>
+    </resultMap>
+    <select id="find2" resultType="java.util.Map"  useCache="true">
+        select bookname,author,k.kind_name from book b inner join kind k on b.kind_id=k.id
+    </select>
+    <!--多表查询可以通过join...on建立联系-->
+    <select id="find" resultMap="Book" >
+        select bookname,author,k.kind_name from book b inner join kind k on b.kind_id=k.id
+    </select>
+    <!--多表查询可以在mysql创建表时表之间先建立外键连接-->
+    <select id="find1" resultMap="Book" useCache="true">
+        select bookname,author,k.kind_name from book b ,kind k
+    </select>
+    <!-- 查询方法1-->
+    <select id="findAll" resultType="com.itheima.domain.Book">
+        select * from book
+    </select>
+    <!-- 查询方法2-->
+    <select id="findCount" resultType="java.lang.Integer">
+        select count(*)  from book
+    </select>
+    <!-- 查询方法3-->
+    <select id="findById" resultType="com.itheima.domain.Book">
+        select * from book where id = 1
+    </select>
+    <!-- 查询方法4-->
+    <select id="findByBookname" resultType="java.util.Map">
+         select bookname from book
+    </select>
+    <!-- 查询方法5-->
+    <select id="findByKind_id" resultType="java.util.Map">
+        select kind_id,avg(price)  from book group by kind_id
+    </select>
+    <!-- 添加方法-->
+    <insert id="add" parameterType="com.itheima.domain.Book">
+        insert into book values(null,#{bookname},#{kind_id},#{author},#{company},#{price})
+    </insert>
+    <!-- 删除方法-->
+    <delete id="del" parameterType="java.lang.Integer" >
+        delete from book where id=#{id}
+    </delete>
+    <!-- 修改方法1,常用方法-->
+    <update id="modify" parameterType="com.itheima.domain.Book">
+        update book set price=#{price} where id=#{id}
+    </update>
+    <!-- 修改方法2,了解方法-->
+    <update id="testUpdate" parameterType="java.util.Map">
+        update book set price=#{price} where id=#{id}
+    </update>
+    <!-- 模糊查询方法-->
+    <select id="findByCompany" parameterType="java.lang.String" resultType="com.itheima.domain.Book">
+        select *from book where company like #{string}
+    </select>
+
+    <!-- 条件查询方法1-->
+    <select id="findByCondition" parameterType="Book" resultMap="Book">
+        select * from book b inner join kind k on b.kind_id=k.id
+        <where >
+        <if test="company!=null and company!='' and company!='null' ">
+            and company like #{company}
+        </if>
+        </where>
+
+    </select>
+    <!-- 条件查询方法2————带in的查询list集合-->
+    <select id="findByBookId" parameterType="java.util.List" resultMap="Book">
+        <!--第一种写法-->
+        select * from book
+        <where >
+            <foreach collection="list"
+                     open="id in (" item="id" separator="," close=")">
+                #{id}
+            </foreach>
+        </where>
+
+        <!--第二种写法-->
+        <!--SELECT *
+        FROM book
+        WHERE ID in
+        <foreach item="item" index="index" collection="list"
+                 open="(" separator="," close=")">
+            #{item}
+        </foreach>-->
+
+    </select>
+    <!-- 条件查询方法3————带in的查询array数组-->
+    <select id="findByBookId_one" parameterType="int" resultMap="Book">
+        select * from book
+        <where >
+            <foreach collection="array" open="id in (" item="id" separator="," close=")">
+                #{id}
+            </foreach>
+        </where>
+    <!--通过kind_name查询-->
+    </select>
+    <select id="findByKind_name" resultMap="Book" parameterType="kind">
+        SELECT * FROM book b ,kind k WHERE b.kind_id=k.id AND k.`kind_name`=#{kind_name}
+    </select>
+    <!--通过id修改price查询-->
+    <select id="updateById" resultType="java.lang.Integer" parameterType="java.util.Map">
+        update  book set price=#{price}
+        <where >
+            <foreach collection="list" open="id in (" item="id" separator="," close=")">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+    <!--通过price的条件限定查询book
+    当sql与剧中有条件语句时使用<![CDATA[条件限定语句比如（price<100）]]
+    -->
+    <select id="findByPrice" resultType="Book">
+        SELECT * FROM book WHERE <![CDATA[price<100]]>
+    </select>
+
+
+
+
+
+
+</mapper>

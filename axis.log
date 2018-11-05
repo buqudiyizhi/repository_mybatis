@@ -1,0 +1,802 @@
+2018-10-15 21:21:18,271 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:21:18,645 374    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:21:18,645 374    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:21:18,645 374    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:21:18,645 374    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:21:18,804 533    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:21:19,642 1371   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1583353301.
+2018-10-15 21:21:19,643 1372   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e600dd5]
+2018-10-15 21:21:19,645 1374   [           main] DEBUG om.itcast.dao.IBookDao.findAll  - ==>  Preparing: select *from book 
+2018-10-15 21:21:19,732 1461   [           main] DEBUG om.itcast.dao.IBookDao.findAll  - ==> Parameters: 
+2018-10-15 21:21:19,802 1531   [           main] DEBUG om.itcast.dao.IBookDao.findAll  - <==      Total: 10
+2018-10-15 21:21:19,805 1534   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e600dd5]
+2018-10-15 21:21:19,806 1535   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e600dd5]
+2018-10-15 21:21:19,806 1535   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1583353301 to pool.
+2018-10-15 21:24:03,584 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:24:03,770 186    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:24:03,771 187    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:24:03,772 188    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:24:03,772 188    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:24:03,907 323    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:24:04,528 944    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1583353301.
+2018-10-15 21:24:04,528 944    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e600dd5]
+2018-10-15 21:24:04,532 948    [           main] DEBUG om.itcast.dao.IBookDao.findAll  - ==>  Preparing: select *from book 
+2018-10-15 21:24:04,644 1060   [           main] DEBUG om.itcast.dao.IBookDao.findAll  - ==> Parameters: 
+2018-10-15 21:24:04,771 1187   [           main] DEBUG om.itcast.dao.IBookDao.findAll  - <==      Total: 10
+2018-10-15 21:24:04,774 1190   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e600dd5]
+2018-10-15 21:24:04,775 1191   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5e600dd5]
+2018-10-15 21:24:04,775 1191   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1583353301 to pool.
+2018-10-15 21:38:03,721 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:38:03,952 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:03,952 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:03,952 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:03,952 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:04,100 379    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:38:04,620 899    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 775514090.
+2018-10-15 21:38:04,620 899    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:38:04,623 902    [           main] DEBUG .itcast.dao.IBookDao.findCount  - ==>  Preparing: select count(*) from book 
+2018-10-15 21:38:04,708 987    [           main] DEBUG .itcast.dao.IBookDao.findCount  - ==> Parameters: 
+2018-10-15 21:38:04,780 1059   [           main] DEBUG .itcast.dao.IBookDao.findCount  - <==      Total: 1
+2018-10-15 21:38:04,781 1060   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:38:04,782 1061   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:38:04,782 1061   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 775514090 to pool.
+2018-10-15 21:38:48,395 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:38:48,662 267    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:48,663 268    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:48,664 269    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:48,664 269    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:38:48,807 412    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:38:49,252 857    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 775514090.
+2018-10-15 21:38:49,253 858    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:38:49,256 861    [           main] DEBUG .itcast.dao.IBookDao.findCount  - ==>  Preparing: select count(*) from book 
+2018-10-15 21:38:49,341 946    [           main] DEBUG .itcast.dao.IBookDao.findCount  - ==> Parameters: 
+2018-10-15 21:38:49,411 1016   [           main] DEBUG .itcast.dao.IBookDao.findCount  - <==      Total: 1
+2018-10-15 21:38:49,412 1017   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:38:49,413 1018   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:38:49,413 1018   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 775514090 to pool.
+2018-10-15 21:39:34,137 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:39:34,401 264    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:39:34,401 264    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:39:34,401 264    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:39:34,401 264    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:39:34,545 408    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:39:35,038 901    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 775514090.
+2018-10-15 21:39:35,039 902    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:39:35,041 904    [           main] DEBUG .itcast.dao.IBookDao.findCount  - ==>  Preparing: select count(*) from book 
+2018-10-15 21:39:35,146 1009   [           main] DEBUG .itcast.dao.IBookDao.findCount  - ==> Parameters: 
+2018-10-15 21:39:35,181 1044   [           main] DEBUG .itcast.dao.IBookDao.findCount  - <==      Total: 1
+2018-10-15 21:39:35,182 1045   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:39:35,182 1045   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@2e3967ea]
+2018-10-15 21:39:35,183 1046   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 775514090 to pool.
+2018-10-15 21:44:07,169 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:44:07,448 279    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:44:07,448 279    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:44:07,448 279    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:44:07,448 279    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:47:33,773 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:47:33,977 204    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:47:33,977 204    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:47:33,977 204    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:47:33,978 205    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:47:34,132 359    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:47:34,557 784    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1894369629.
+2018-10-15 21:47:34,558 785    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@70e9c95d]
+2018-10-15 21:47:34,560 787    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==>  Preparing: select *　from book where id=1 
+2018-10-15 21:47:34,638 865    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==> Parameters: 
+2018-10-15 21:49:32,350 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:49:32,552 202    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:49:32,552 202    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:49:32,553 203    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:49:32,553 203    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:49:32,703 353    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:49:33,123 773    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1894369629.
+2018-10-15 21:49:33,124 774    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@70e9c95d]
+2018-10-15 21:49:33,126 776    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==>  Preparing: select *　from book where id=1 
+2018-10-15 21:49:33,260 910    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==> Parameters: 
+2018-10-15 21:51:38,295 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:51:38,487 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:51:38,487 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:51:38,487 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:51:38,487 192    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:51:38,621 326    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 21:51:39,002 707    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1894369629.
+2018-10-15 21:51:39,002 707    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@70e9c95d]
+2018-10-15 21:51:39,005 710    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==>  Preparing: select * from book where id = 1 
+2018-10-15 21:51:39,098 803    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==> Parameters: 
+2018-10-15 21:51:39,132 837    [           main] DEBUG m.itcast.dao.IBookDao.findById  - <==      Total: 1
+2018-10-15 21:51:39,133 838    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@70e9c95d]
+2018-10-15 21:51:39,134 839    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@70e9c95d]
+2018-10-15 21:51:39,134 839    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1894369629 to pool.
+2018-10-15 21:58:57,902 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 21:58:58,126 224    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:58:58,127 225    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:58:58,127 225    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 21:58:58,127 225    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:03,463 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:03:03,706 243    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:03,706 243    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:03,706 243    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:03,706 243    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:03,883 420    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:03:04,415 952    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1297502382.
+2018-10-15 22:03:04,415 952    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:03:04,418 955    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==>  Preparing: select * from book where id = 1 
+2018-10-15 22:03:04,509 1046   [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==> Parameters: 
+2018-10-15 22:03:04,550 1087   [           main] DEBUG m.itcast.dao.IBookDao.findById  - <==      Total: 1
+2018-10-15 22:03:04,553 1090   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:03:04,553 1090   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:03:04,554 1091   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1297502382 to pool.
+2018-10-15 22:03:42,804 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:03:43,053 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:43,053 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:43,053 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:43,053 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:03:43,197 393    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:03:43,680 876    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1297502382.
+2018-10-15 22:03:43,680 876    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:03:43,684 880    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==>  Preparing: select * from book where id = 1 
+2018-10-15 22:03:43,768 964    [           main] DEBUG m.itcast.dao.IBookDao.findById  - ==> Parameters: 
+2018-10-15 22:03:43,802 998    [           main] DEBUG m.itcast.dao.IBookDao.findById  - <==      Total: 1
+2018-10-15 22:03:43,805 1001   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:03:43,805 1001   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:03:43,806 1002   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1297502382 to pool.
+2018-10-15 22:04:40,849 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:04:41,059 210    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:04:41,061 212    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:04:41,061 212    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:04:41,061 212    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:04:41,203 354    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:04:41,641 792    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1876682596.
+2018-10-15 22:04:41,642 793    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6fdbe764]
+2018-10-15 22:04:41,644 795    [           main] DEBUG st.dao.IBookDao.findByBookname  - ==>  Preparing: select bookname from book 
+2018-10-15 22:04:41,717 868    [           main] DEBUG st.dao.IBookDao.findByBookname  - ==> Parameters: 
+2018-10-15 22:04:41,772 923    [           main] DEBUG st.dao.IBookDao.findByBookname  - <==      Total: 10
+2018-10-15 22:06:53,208 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:06:53,441 233    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:06:53,442 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:06:53,442 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:06:53,442 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:06:53,599 391    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:06:54,082 874    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1297502382.
+2018-10-15 22:06:54,082 874    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:06:54,084 876    [           main] DEBUG st.dao.IBookDao.findByBookname  - ==>  Preparing: select bookname from book 
+2018-10-15 22:06:54,161 953    [           main] DEBUG st.dao.IBookDao.findByBookname  - ==> Parameters: 
+2018-10-15 22:06:54,204 996    [           main] DEBUG st.dao.IBookDao.findByBookname  - <==      Total: 10
+2018-10-15 22:09:12,056 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:09:12,275 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:09:12,275 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:09:12,275 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:09:12,275 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:09:12,419 363    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:09:12,792 736    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1297502382.
+2018-10-15 22:09:12,792 736    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:09:12,795 739    [           main] DEBUG om.itcast.dao.IBookDao.findAll  - ==>  Preparing: select * from book 
+2018-10-15 22:09:12,904 848    [           main] DEBUG om.itcast.dao.IBookDao.findAll  - ==> Parameters: 
+2018-10-15 22:09:12,990 934    [           main] DEBUG om.itcast.dao.IBookDao.findAll  - <==      Total: 10
+2018-10-15 22:09:12,993 937    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:09:12,994 938    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:09:12,994 938    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1297502382 to pool.
+2018-10-15 22:15:44,071 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:15:44,280 209    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:15:44,280 209    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:15:44,280 209    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:15:44,280 209    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:15:44,447 376    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:15:44,907 836    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1297502382.
+2018-10-15 22:15:44,907 836    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:15:44,910 839    [           main] DEBUG st.dao.IBookDao.findByBookname  - ==>  Preparing: select bookname from book 
+2018-10-15 22:15:44,978 907    [           main] DEBUG st.dao.IBookDao.findByBookname  - ==> Parameters: 
+2018-10-15 22:15:45,011 940    [           main] DEBUG st.dao.IBookDao.findByBookname  - <==      Total: 10
+2018-10-15 22:15:45,013 942    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:15:45,014 943    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:15:45,015 944    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1297502382 to pool.
+2018-10-15 22:23:10,909 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:23:11,123 214    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:23:11,125 216    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:23:11,125 216    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:23:11,125 216    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:23:11,263 354    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:23:11,726 817    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 171493374.
+2018-10-15 22:23:11,727 818    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a38c7fe]
+2018-10-15 22:23:11,729 820    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - ==>  Preparing: select kind_id,avg(price) from book group by kind_id 
+2018-10-15 22:23:11,825 916    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - ==> Parameters: 
+2018-10-15 22:23:11,863 954    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - <==      Total: 4
+2018-10-15 22:23:11,864 955    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a38c7fe]
+2018-10-15 22:23:11,864 955    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@a38c7fe]
+2018-10-15 22:23:11,865 956    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 171493374 to pool.
+2018-10-15 22:27:32,604 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:27:32,836 232    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:27:32,836 232    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:27:32,836 232    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:27:32,836 232    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:27:32,981 377    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:27:33,395 791    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1297502382.
+2018-10-15 22:27:33,396 792    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:27:33,399 795    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - ==>  Preparing: select kind_id,avg(price) from book group by kind_id 
+2018-10-15 22:27:33,454 850    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - ==> Parameters: 
+2018-10-15 22:27:33,493 889    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - <==      Total: 4
+2018-10-15 22:27:33,494 890    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:27:33,495 891    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@4d5650ae]
+2018-10-15 22:27:33,495 891    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1297502382 to pool.
+2018-10-15 22:29:31,919 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-15 22:29:32,175 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:29:32,175 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:29:32,175 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:29:32,175 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-15 22:29:32,310 391    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-15 22:29:32,752 833    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 171493374.
+2018-10-15 22:29:32,752 833    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a38c7fe]
+2018-10-15 22:29:32,755 836    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - ==>  Preparing: select kind_id,avg(price) from book group by kind_id 
+2018-10-15 22:29:32,849 930    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - ==> Parameters: 
+2018-10-15 22:29:32,889 970    [           main] DEBUG ast.dao.IBookDao.findByKind_id  - <==      Total: 4
+2018-10-15 22:29:32,891 972    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@a38c7fe]
+2018-10-15 22:29:32,891 972    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@a38c7fe]
+2018-10-15 22:29:32,891 972    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 171493374 to pool.
+2018-10-17 10:17:10,090 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:17:10,528 438    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:17:10,528 438    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:17:10,528 438    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:17:10,528 438    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:17:10,918 828    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:17:11,637 1547   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1383178166.
+2018-10-17 10:17:11,637 1547   [           main] DEBUG    com.itcast.dao.IBookDao.add  - ==>  Preparing: insert into book values(null,?,?,?,?,?) 
+2018-10-17 10:17:11,683 1593   [           main] DEBUG    com.itcast.dao.IBookDao.add  - ==> Parameters: 三国演义(String), 2(Integer), 罗贯中(String), 人民出版社(String), 32.2(Double)
+2018-10-17 10:17:11,730 1640   [           main] DEBUG    com.itcast.dao.IBookDao.add  - <==    Updates: 1
+2018-10-17 10:17:11,730 1640   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52719fb6]
+2018-10-17 10:17:11,746 1656   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1383178166 to pool.
+2018-10-17 10:22:36,693 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:22:36,942 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:36,942 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:36,942 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:36,942 249    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:37,099 406    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:22:37,677 984    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1383178166.
+2018-10-17 10:22:37,677 984    [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==>  Preparing: delete from book where id=? 
+2018-10-17 10:22:37,770 1077   [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==> Parameters: 11(Integer)
+2018-10-17 10:22:37,848 1155   [           main] DEBUG    com.itcast.dao.IBookDao.del  - <==    Updates: 1
+2018-10-17 10:22:37,848 1155   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52719fb6]
+2018-10-17 10:22:37,848 1155   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1383178166 to pool.
+2018-10-17 10:22:59,372 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:22:59,606 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:59,606 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:59,606 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:59,606 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:22:59,762 390    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:23:00,325 953    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1383178166.
+2018-10-17 10:23:00,325 953    [           main] DEBUG    com.itcast.dao.IBookDao.add  - ==>  Preparing: insert into book values(null,?,?,?,?,?) 
+2018-10-17 10:23:00,496 1124   [           main] DEBUG    com.itcast.dao.IBookDao.add  - ==> Parameters: 三国演义(String), 2(Integer), 罗贯中(String), 人民出版社(String), 32.2(Double)
+2018-10-17 10:23:00,637 1265   [           main] DEBUG    com.itcast.dao.IBookDao.add  - <==    Updates: 1
+2018-10-17 10:23:00,637 1265   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52719fb6]
+2018-10-17 10:23:00,637 1265   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1383178166 to pool.
+2018-10-17 10:23:26,198 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:23:26,432 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:26,432 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:26,432 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:26,432 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:26,588 390    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:23:26,995 797    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1383178166.
+2018-10-17 10:23:26,995 797    [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==>  Preparing: delete from book where id=? 
+2018-10-17 10:23:27,135 937    [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==> Parameters: 11(Integer)
+2018-10-17 10:23:27,135 937    [           main] DEBUG    com.itcast.dao.IBookDao.del  - <==    Updates: 0
+2018-10-17 10:23:27,135 937    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52719fb6]
+2018-10-17 10:23:27,135 937    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1383178166 to pool.
+2018-10-17 10:23:56,136 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:23:56,370 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:56,370 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:56,370 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:56,370 234    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:23:56,620 484    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:23:57,230 1094   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1383178166.
+2018-10-17 10:23:57,245 1109   [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==>  Preparing: delete from book where id=? 
+2018-10-17 10:23:57,339 1203   [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==> Parameters: 12(Integer)
+2018-10-17 10:23:57,401 1265   [           main] DEBUG    com.itcast.dao.IBookDao.del  - <==    Updates: 1
+2018-10-17 10:23:57,401 1265   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52719fb6]
+2018-10-17 10:23:57,401 1265   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1383178166 to pool.
+2018-10-17 10:24:17,501 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:24:17,766 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:17,766 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:17,766 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:17,766 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:17,938 437    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:24:18,376 875    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1383178166.
+2018-10-17 10:24:18,376 875    [           main] DEBUG    com.itcast.dao.IBookDao.add  - ==>  Preparing: insert into book values(null,?,?,?,?,?) 
+2018-10-17 10:24:18,485 984    [           main] DEBUG    com.itcast.dao.IBookDao.add  - ==> Parameters: 三国演义(String), 2(Integer), 罗贯中(String), 人民出版社(String), 32.2(Double)
+2018-10-17 10:24:18,594 1093   [           main] DEBUG    com.itcast.dao.IBookDao.add  - <==    Updates: 1
+2018-10-17 10:24:18,594 1093   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52719fb6]
+2018-10-17 10:24:18,594 1093   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1383178166 to pool.
+2018-10-17 10:24:36,094 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:24:36,344 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:36,344 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:36,359 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:36,359 265    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:24:36,484 390    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:24:37,047 953    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1383178166.
+2018-10-17 10:24:37,047 953    [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==>  Preparing: delete from book where id=? 
+2018-10-17 10:24:37,125 1031   [           main] DEBUG    com.itcast.dao.IBookDao.del  - ==> Parameters: 13(Integer)
+2018-10-17 10:24:37,203 1109   [           main] DEBUG    com.itcast.dao.IBookDao.del  - <==    Updates: 1
+2018-10-17 10:24:37,203 1109   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@52719fb6]
+2018-10-17 10:24:37,203 1109   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1383178166 to pool.
+2018-10-17 10:35:59,979 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:36:00,291 312    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:36:00,291 312    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:36:00,291 312    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:36:00,291 312    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:36:00,432 453    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:36:00,869 890    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 806511723.
+2018-10-17 10:36:00,869 890    [           main] DEBUG com.itcast.dao.IBookDao.modify  - ==>  Preparing: update book set price=? where id=? 
+2018-10-17 10:36:00,994 1015   [           main] DEBUG com.itcast.dao.IBookDao.modify  - ==> Parameters: 99.99(Double), null
+2018-10-17 10:36:00,994 1015   [           main] DEBUG com.itcast.dao.IBookDao.modify  - <==    Updates: 0
+2018-10-17 10:36:00,994 1015   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3012646b]
+2018-10-17 10:36:00,994 1015   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 806511723 to pool.
+2018-10-17 10:38:04,361 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:38:04,627 266    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:38:04,627 266    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:38:04,627 266    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:38:04,627 266    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:38:04,814 453    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:38:05,470 1109   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 806511723.
+2018-10-17 10:38:05,470 1109   [           main] DEBUG com.itcast.dao.IBookDao.modify  - ==>  Preparing: update book set price=? where id=? 
+2018-10-17 10:38:05,548 1187   [           main] DEBUG com.itcast.dao.IBookDao.modify  - ==> Parameters: 99.99(Double), 10(Integer)
+2018-10-17 10:38:05,595 1234   [           main] DEBUG com.itcast.dao.IBookDao.modify  - <==    Updates: 1
+2018-10-17 10:38:05,595 1234   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3012646b]
+2018-10-17 10:38:05,595 1234   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 806511723 to pool.
+2018-10-17 10:57:27,348 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 10:57:27,629 281    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:57:27,629 281    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:57:27,629 281    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:57:27,629 281    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 10:57:27,801 453    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 10:57:28,473 1125   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1101048445.
+2018-10-17 10:57:28,473 1125   [           main] DEBUG itcast.dao.IBookDao.testUpdate  - ==>  Preparing: update book set price=? where id=? 
+2018-10-17 10:57:28,551 1203   [           main] DEBUG itcast.dao.IBookDao.testUpdate  - ==> Parameters: 9999.9999(Double), 10(Integer)
+2018-10-17 10:57:29,035 1687   [           main] DEBUG itcast.dao.IBookDao.testUpdate  - <==    Updates: 1
+2018-10-17 10:57:29,035 1687   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@41a0aa7d]
+2018-10-17 10:57:29,035 1687   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1101048445 to pool.
+2018-10-17 11:21:26,793 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 11:21:27,012 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:21:27,012 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:21:27,012 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:21:27,012 219    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:22:21,968 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 11:22:22,218 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:22:22,218 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:22:22,218 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:22:22,218 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 11:22:22,421 453    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 11:22:22,827 859    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 443384617.
+2018-10-17 11:22:22,827 859    [           main] DEBUG ast.dao.IBookDao.findByCompany  - ==>  Preparing: select *from book where company like ? 
+2018-10-17 11:22:22,905 937    [           main] DEBUG ast.dao.IBookDao.findByCompany  - ==> Parameters: %江%(String)
+2018-10-17 11:22:22,967 999    [           main] DEBUG ast.dao.IBookDao.findByCompany  - <==      Total: 3
+2018-10-17 11:22:22,983 1015   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1a6d8329]
+2018-10-17 11:22:22,983 1015   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 443384617 to pool.
+2018-10-17 20:48:25,565 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 20:48:25,888 323    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:48:25,888 323    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:48:25,888 323    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:48:25,888 323    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:48:26,120 555    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 20:48:26,566 1001   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1187903677.
+2018-10-17 20:48:26,567 1002   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT c.username,s.saletime,b.bookname,k.kind_name,b.price*s.nums FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 20:48:26,643 1078   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 20:48:26,734 1169   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 20:50:34,079 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 20:50:34,310 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:50:34,310 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:50:34,310 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:50:34,310 231    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:50:34,505 426    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 20:50:34,984 905    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1187903677.
+2018-10-17 20:50:34,989 910    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT c.username,s.saletime,b.bookname,k.kind_name,b.price*s.nums FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 20:50:35,106 1027   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 20:50:35,152 1073   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 20:50:35,202 1123   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@46cdf8bd]
+2018-10-17 20:50:35,202 1123   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1187903677 to pool.
+2018-10-17 20:57:45,167 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 20:57:45,417 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:57:45,417 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:57:45,417 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:57:45,417 250    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 20:57:45,635 468    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 20:57:46,115 948    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1946988038.
+2018-10-17 20:57:46,118 951    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT c.username,s.saletime,b.bookname,k.kind_name,b.price*s.nums FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 20:57:46,209 1042   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:03:34,563 3      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:03:34,807 247    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:03:34,807 247    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:03:34,807 247    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:03:34,807 247    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:03:35,048 488    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:03:35,568 1008   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1946988038.
+2018-10-17 21:03:35,571 1011   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT c.username,s.saletime,b.bookname,k.kind_name,b.price*s.nums FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:03:35,660 1100   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:05:17,912 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:05:18,163 251    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:05:18,163 251    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:05:18,163 251    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:05:18,163 251    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:05:18,396 484    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:05:19,023 1111   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1946988038.
+2018-10-17 21:05:19,026 1114   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:05:19,105 1193   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:17:42,877 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:17:43,055 178    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:17:43,055 178    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:17:43,055 178    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:17:43,055 178    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:17:43,218 341    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:17:43,573 696    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 252480153.
+2018-10-17 21:17:43,573 696    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:17:43,649 772    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:17:43,705 828    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 21:18:26,698 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:18:26,975 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:18:26,975 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:18:26,975 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:18:26,975 277    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:18:27,153 455    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:18:27,530 832    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1187903677.
+2018-10-17 21:18:27,530 832    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:18:27,595 897    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:18:27,656 958    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 21:18:27,666 968    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@46cdf8bd]
+2018-10-17 21:18:27,666 968    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1187903677 to pool.
+2018-10-17 21:23:45,599 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:23:45,801 202    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:23:45,801 202    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:23:45,801 202    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:23:45,801 202    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:23:45,986 387    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:23:46,441 842    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 252480153.
+2018-10-17 21:23:46,441 842    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,s.nums*b.price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:23:46,499 900    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:23:46,574 975    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 21:27:33,023 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:27:33,205 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:27:33,205 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:27:33,205 182    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:27:33,209 186    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:27:33,387 364    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:27:33,855 832    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 252480153.
+2018-10-17 21:27:33,859 836    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:27:33,918 895    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:27:33,986 963    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 21:27:33,992 969    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f0c8a99]
+2018-10-17 21:27:33,996 973    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 252480153 to pool.
+2018-10-17 21:30:31,797 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:30:31,996 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:31,996 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:31,996 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:31,996 199    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:53,313 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:30:53,595 282    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:53,595 282    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:53,595 282    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:53,595 282    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:30:53,795 482    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:30:54,217 904    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 252480153.
+2018-10-17 21:30:54,217 904    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:30:54,356 1043   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:30:54,478 1165   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 21:30:54,497 1184   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f0c8a99]
+2018-10-17 21:30:54,499 1186   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 252480153 to pool.
+2018-10-17 21:36:29,624 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:36:29,880 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:36:29,880 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:36:29,880 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:36:29,880 256    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:36:30,062 438    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:36:30,543 919    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 252480153.
+2018-10-17 21:36:30,551 927    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:36:30,635 1011   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:36:30,686 1062   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 21:36:30,701 1077   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f0c8a99]
+2018-10-17 21:36:30,701 1077   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 252480153 to pool.
+2018-10-17 21:36:59,622 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-17 21:36:59,860 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:36:59,860 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:36:59,860 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:36:59,860 238    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-17 21:37:00,081 459    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-17 21:37:00,573 951    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 252480153.
+2018-10-17 21:37:00,578 956    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-17 21:37:00,680 1058   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-17 21:37:00,735 1113   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-17 21:37:00,745 1123   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@f0c8a99]
+2018-10-17 21:37:00,749 1127   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 252480153 to pool.
+2018-10-18 15:09:28,549 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 15:09:28,805 256    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 15:09:28,805 256    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 15:09:28,806 257    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 15:09:28,808 259    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 15:09:28,809 260    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 15:09:28,810 261    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 15:09:28,811 262    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 15:09:28,913 364    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 15:09:28,915 366    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 15:09:28,915 366    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 15:09:28,916 367    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 15:09:28,917 368    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 15:09:28,917 368    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 15:09:28,917 368    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 15:09:28,919 370    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 15:09:28,921 372    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 15:09:28,921 372    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 15:09:28,922 373    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 15:09:28,923 374    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 15:09:28,924 375    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 15:09:28,925 376    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 15:09:28,926 377    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 15:09:28,926 377    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 15:09:28,928 379    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 15:09:28,929 380    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 15:09:28,930 381    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 15:09:28,951 402    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 15:09:28,953 404    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 15:09:29,056 507    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:09:29,057 508    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:09:29,057 508    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:09:29,057 508    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:10:00,687 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 15:10:00,832 145    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 15:10:00,832 145    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 15:10:00,833 146    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 15:10:00,834 147    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 15:10:00,835 148    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 15:10:00,836 149    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 15:10:00,836 149    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 15:10:00,905 218    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 15:10:00,907 220    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 15:10:00,907 220    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 15:10:00,909 222    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 15:10:00,911 224    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 15:10:00,914 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 15:10:00,914 227    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 15:10:00,917 230    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 15:10:00,919 232    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 15:10:00,919 232    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 15:10:00,922 235    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 15:10:00,923 236    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 15:10:00,924 237    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 15:10:00,931 244    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 15:10:00,933 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 15:10:00,933 246    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 15:10:00,937 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 15:10:00,939 252    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 15:10:00,942 255    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 15:10:00,943 256    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 15:10:00,944 257    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 15:10:01,009 322    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:10:01,009 322    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:10:01,009 322    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:10:01,011 324    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 15:10:01,200 513    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-18 15:10:01,698 1011   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 335708295.
+2018-10-18 15:10:01,701 1014   [           main] DEBUG itcast.dao.IBookDao.testUpdate  - ==>  Preparing: update book set price=? where id=? 
+2018-10-18 15:10:01,832 1145   [           main] DEBUG itcast.dao.IBookDao.testUpdate  - ==> Parameters: 9999.9999(Double), 10(Integer)
+2018-10-18 15:10:01,930 1243   [           main] DEBUG itcast.dao.IBookDao.testUpdate  - <==    Updates: 1
+2018-10-18 15:10:01,930 1243   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@14028087]
+2018-10-18 15:10:01,930 1243   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 335708295 to pool.
+2018-10-18 16:46:47,708 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 16:46:47,916 208    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 16:46:47,916 208    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 16:46:47,917 209    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 16:46:47,926 218    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 16:46:47,927 219    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 16:46:47,929 221    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:46:47,930 222    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:46:48,006 298    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 16:46:48,007 299    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 16:46:48,008 300    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 16:46:48,009 301    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 16:46:48,009 301    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:46:48,010 302    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 16:46:48,010 302    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 16:46:48,011 303    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 16:46:48,013 305    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 16:46:48,014 306    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 16:46:48,015 307    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 16:46:48,016 308    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 16:46:48,016 308    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 16:46:48,019 311    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 16:46:48,020 312    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 16:46:48,020 312    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 16:46:48,021 313    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 16:46:48,022 314    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 16:46:48,023 315    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 16:46:48,025 317    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 16:46:48,030 322    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 16:46:48,109 401    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:46:48,110 402    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:46:48,110 402    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:46:48,110 402    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:46:48,376 668    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-18 16:46:48,862 1154   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 572145572.
+2018-10-18 16:46:48,865 1157   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-18 16:46:48,963 1255   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-18 16:46:49,016 1308   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-18 16:47:24,032 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 16:47:24,228 196    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 16:47:24,229 197    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 16:47:24,229 197    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 16:47:24,230 198    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 16:47:24,231 199    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 16:47:24,233 201    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:47:24,233 201    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:47:24,322 290    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 16:47:24,323 291    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 16:47:24,324 292    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 16:47:24,324 292    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 16:47:24,327 295    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:47:24,327 295    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 16:47:24,327 295    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 16:47:24,329 297    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 16:47:24,331 299    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 16:47:24,332 300    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 16:47:24,334 302    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 16:47:24,335 303    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 16:47:24,335 303    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 16:47:24,336 304    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 16:47:24,355 323    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 16:47:24,355 323    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 16:47:24,361 329    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 16:47:24,362 330    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 16:47:24,363 331    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 16:47:24,365 333    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 16:47:24,366 334    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 16:47:24,469 437    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:47:24,469 437    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:47:24,469 437    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:47:24,470 438    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:47:24,735 703    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-18 16:47:25,228 1196   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 572145572.
+2018-10-18 16:47:25,231 1199   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-18 16:47:25,343 1311   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-18 16:47:25,425 1393   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-18 16:47:25,443 1411   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@221a3fa4]
+2018-10-18 16:47:25,443 1411   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 572145572 to pool.
+2018-10-18 16:53:39,254 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 16:53:39,448 194    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 16:53:39,449 195    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 16:53:39,449 195    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 16:53:39,450 196    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 16:53:39,451 197    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 16:53:39,452 198    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:53:39,452 198    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:53:39,565 311    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 16:53:39,567 313    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 16:53:39,568 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 16:53:39,568 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 16:53:39,569 315    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 16:53:39,569 315    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 16:53:39,569 315    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 16:53:39,571 317    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 16:53:39,573 319    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 16:53:39,573 319    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 16:53:39,577 323    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 16:53:39,580 326    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 16:53:39,580 326    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 16:53:39,584 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 16:53:39,585 331    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 16:53:39,586 332    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 16:53:39,613 359    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 16:53:39,614 360    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 16:53:39,622 368    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 16:53:39,623 369    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 16:53:39,625 371    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 16:53:39,727 473    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:53:39,727 473    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:53:39,727 473    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:53:39,728 474    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 16:53:40,023 769    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-18 16:53:40,598 1344   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 572145572.
+2018-10-18 16:53:40,600 1346   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-18 16:53:40,693 1439   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-18 16:53:40,772 1518   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-18 16:53:40,782 1528   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@221a3fa4]
+2018-10-18 16:53:40,782 1528   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 572145572 to pool.
+2018-10-18 18:54:25,456 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 18:54:25,674 218    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 18:54:25,674 218    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 18:54:25,691 235    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 18:54:25,691 235    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 18:54:25,691 235    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 18:54:25,695 239    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:54:25,695 239    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 18:54:25,776 320    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 18:54:25,782 326    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 18:54:25,782 326    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 18:54:25,782 326    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 18:54:25,786 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 18:54:25,786 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 18:54:25,786 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 18:54:25,786 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 18:54:25,786 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 18:54:25,786 330    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 18:54:25,786 330    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 18:54:25,786 330    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 18:54:25,792 336    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 18:54:25,792 336    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 18:54:25,822 366    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:54:25,822 366    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:54:25,822 366    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:54:25,822 366    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:55:23,576 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 18:55:23,809 233    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 18:55:23,809 233    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 18:55:23,809 233    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 18:55:23,809 233    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 18:55:23,814 238    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 18:55:23,814 238    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:55:23,814 238    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:55:23,890 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 18:55:23,890 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 18:55:23,890 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 18:55:23,890 314    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 18:55:23,894 318    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:55:23,894 318    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 18:55:23,894 318    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 18:55:23,894 318    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 18:55:23,905 329    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 18:55:23,905 329    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 18:55:23,905 329    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 18:55:23,915 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 18:55:23,915 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 18:55:23,915 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 18:55:23,915 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 18:55:23,915 339    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 18:55:23,923 347    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 18:55:23,923 347    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 18:55:23,923 347    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 18:55:23,923 347    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 18:55:23,923 347    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 18:55:24,029 453    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:55:24,029 453    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:55:24,034 458    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:55:24,034 458    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:56:04,118 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2018-10-18 18:56:04,282 164    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2018-10-18 18:56:04,282 164    [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2018-10-18 18:56:04,284 166    [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2018-10-18 18:56:04,285 167    [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2018-10-18 18:56:04,286 168    [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2018-10-18 18:56:04,287 169    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:56:04,288 170    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:56:04,352 234    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Book.class
+2018-10-18 18:56:04,358 240    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Customer.class
+2018-10-18 18:56:04,358 240    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Kind.class
+2018-10-18 18:56:04,358 240    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Saleinfo.class
+2018-10-18 18:56:04,358 240    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain
+2018-10-18 18:56:04,358 240    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 18:56:04,358 240    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Book.class
+2018-10-18 18:56:04,362 244    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 [
+2018-10-18 18:56:04,368 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 18:56:04,368 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Customer.class
+2018-10-18 18:56:04,368 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 L
+2018-10-18 18:56:04,368 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 18:56:04,368 250    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Kind.class
+2018-10-18 18:56:04,372 254    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 4
+2018-10-18 18:56:04,372 254    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 18:56:04,372 254    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/IdeaProjects/mybatis/day01_mybatis01/target/classes/com/itcast/domain/Saleinfo.class
+2018-10-18 18:56:04,372 254    [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   1 Z
+2018-10-18 18:56:04,388 270    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Book matches criteria [is assignable to Object]
+2018-10-18 18:56:04,388 270    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Customer matches criteria [is assignable to Object]
+2018-10-18 18:56:04,392 274    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Kind matches criteria [is assignable to Object]
+2018-10-18 18:56:04,392 274    [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.itcast.domain.Saleinfo matches criteria [is assignable to Object]
+2018-10-18 18:56:04,459 341    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:56:04,459 341    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:56:04,459 341    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:56:04,459 341    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2018-10-18 18:56:04,635 517    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2018-10-18 18:56:05,002 884    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 2107443224.
+2018-10-18 18:56:05,008 890    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==>  Preparing: SELECT username,saletime,bookname,kind_name,nums,price FROM book AS b ,kind AS k ,saleinfo AS s ,customer AS c WHERE b.`kind_id`=k.`id`AND s.`bookid`=b.`id`AND s.`cid`=c.`id`; 
+2018-10-18 18:56:05,083 965    [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - ==> Parameters: 
+2018-10-18 18:56:05,140 1022   [           main] DEBUG .itcast.dao.ISaleinfoDao.query  - <==      Total: 6
+2018-10-18 18:56:05,151 1033   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7d9d0818]
+2018-10-18 18:56:05,154 1036   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 2107443224 to pool.
